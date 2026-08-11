@@ -2,26 +2,53 @@
 
     <div class="container header-inner">
 
-        <a href="#" class="logo">
+        <!-- LOGO -->
+        <a href="index.html" class="logo">
             kindly<span>.</span>
         </a>
 
+
+        <!-- DESKTOP NAV -->
         <nav class="main-nav">
-            <a href="#latest">Latest</a>
-            <a href="#topics">Topics</a>
-            <a href="#family">Family</a>
-            <a href="#technology">Technology</a>
-            <a href="#wellbeing">Wellbeing</a>
+
+            <a href="index.html">
+                Latest
+            </a>
+
+            <a href="topics.html">
+                Topics
+            </a>
+
+            <a href="family.html">
+                Family
+            </a>
+
+            <a href="technology.html">
+                Technology
+            </a>
+
+            <a href="wellbeing.html">
+                Wellbeing
+            </a>
+
         </nav>
 
+
+        <!-- HEADER ACTIONS -->
         <div class="header-actions">
 
-            <button class="subscribe-button"
-                    onclick="document.querySelector('#newsletter').scrollIntoView({behavior:'smooth'})">
+            <button
+                class="subscribe-button"
+                onclick="document.querySelector('#newsletter')?.scrollIntoView({behavior:'smooth'})"
+            >
                 Subscribe
             </button>
 
-            <button class="menu-button" onclick="toggleMobileNav()" aria-label="Open navigation">
+            <button
+                class="menu-button"
+                onclick="toggleMobileNav()"
+                aria-label="Open navigation"
+            >
                 ☰
             </button>
 
@@ -29,14 +56,32 @@
 
     </div>
 
+
+    <!-- MOBILE NAV -->
     <div class="mobile-nav" id="mobileNav">
 
         <div class="container">
-            <a href="#latest">Latest</a>
-            <a href="#topics">Topics</a>
-            <a href="#family">Family</a>
-            <a href="#technology">Technology</a>
-            <a href="#wellbeing">Wellbeing</a>
+
+            <a href="index.html">
+                Latest
+            </a>
+
+            <a href="topics.html">
+                Topics
+            </a>
+
+            <a href="family.html">
+                Family
+            </a>
+
+            <a href="technology.html">
+                Technology
+            </a>
+
+            <a href="wellbeing.html">
+                Wellbeing
+            </a>
+
         </div>
 
     </div>
